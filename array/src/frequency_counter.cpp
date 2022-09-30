@@ -1,7 +1,5 @@
 #include "../../utils/utils.h"
 
-using namespace std;
-
 /* Using fixed-size arrays */
 // E.g., Longest Palindrome: https://leetcode.com/problems/longest-palindrome/
 int longestPalindrome(string& s) {
