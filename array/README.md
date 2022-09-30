@@ -4,7 +4,7 @@
    
    1. With [frequency counter](src/frequency_counter.cpp)
 
-   2. Prefix sum
+   2. [Prefix sum](src/prefix_sum.cpp)
 
    3. Negative marking
 
