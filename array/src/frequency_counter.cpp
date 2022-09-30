@@ -1,13 +1,8 @@
-#include <iostream>
-#include <numeric>
-#include <string>
-#include <unordered_map>
-#include <unordered_set>
-#include <utility>
-#include <vector>
+#include "../../utils/utils.h"
 
 using namespace std;
 
+/* Using fixed-size arrays */
 // E.g., Longest Palindrome: https://leetcode.com/problems/longest-palindrome/
 int longestPalindrome(string& s) {
     int len = 0, freqCounter[64] = { 0 };
@@ -42,6 +37,7 @@ vector<vector<string>> groupAnagrams(vector<string>& strs) {
     return move(output);
 }
 
+/* Using hashset */
 // E.g., Contains Duplicate: https://leetcode.com/problems/contains-duplicate/
 bool containsDuplicate(vector<int>& nums) {
     unordered_set<int> freqCounter;
@@ -52,6 +48,7 @@ bool containsDuplicate(vector<int>& nums) {
     return false;
 }
 
+/* Using hashmap */
 // E.g., Two Sum: https://leetcode.com/problems/two-sum/
 vector<int> twoSum(vector<int>& nums, int target) {
     unordered_map<int, int> freqCounter;
@@ -61,22 +58,4 @@ vector<int> twoSum(vector<int>& nums, int target) {
         freqCounter[target - nums[i]] = i;
     }
     return {};
-}
-
-int main() {
-    vector<string> v = { "abcdefghijklmnopqrstuvwxyz", "zyxwvutsrqponmlkjihgfedcba",
-                         "aabcd", "aaaa", "", "abcda" };
-    vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 1 };
-
-    cout << longestPalindrome(v[0]) << " " << longestPalindrome(v[2]) << " "
-         << longestPalindrome(v[3]) << " " << longestPalindrome(v[4]) << "\n";
-    cout << (validAnagram(v[0], v[1]) ? "true" : "false") << "\n";
-    for (auto& vec : groupAnagrams(v)) {
-        for (string& s : vec) cout << s << " ";
-        cout << "| ";
-    }
-    cout << "\n";
-
-    cout << (containsDuplicate(vi) ? "true" : "false") << "\n";
-    cout << twoSum(vi, 12)[0] << " " << twoSum(vi, 12)[1] << "\n";
 }

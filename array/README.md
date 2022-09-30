@@ -2,7 +2,7 @@
 
 1. Single-pass/Plane-sweep
    
-   1. With [frequency counter](frequency_counter.cpp)
+   1. With [frequency counter](src/frequency_counter.cpp)
 
    2. Prefix sum
 
