@@ -1,3 +1,7 @@
+/**
+ * Use a fixed-size array, hashset, or hashmap to keep track of the count of the element at
+ * each index of the given array/vector/string.
+ */
 #include "../../utils/utils.h"
 
 /* Using fixed-size arrays */
