@@ -6,7 +6,7 @@
 
    2. [Prefix sum](src/prefix_sum.cpp)
 
-   3. Negative marking
+   3. [Negative marking](src/negative_marking.cpp)
 
    4. Kadane algorithm: maximum subarray
 
@@ -22,4 +22,8 @@
 
 4. String search algorithms
 
-5. Backtracking
+5. Recursion
+
+   1. Divide-and-Conquer
+
+   2. Backtracking
