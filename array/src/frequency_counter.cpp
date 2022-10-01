@@ -51,13 +51,15 @@ bool containsDuplicate(vector<int>& nums) {
 }
 
 /* Using hashmap */
-// E.g., Two Sum: https://leetcode.com/problems/two-sum/
-vector<int> twoSum(vector<int>& nums, int target) {
+// E.g., Minimum Rounds to Complete All Tasks: https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/
+int minimumRounds(vector<int>& tasks) {
     unordered_map<int, int> freqCounter;
-    for (int i : nums) {
-        if (freqCounter.find(nums[i]) != freqCounter.end())
-            return { i, freqCounter[nums[i]] };
-        freqCounter[target - nums[i]] = i;
+    for (int i : tasks) ++freqCounter[i];
+    
+    int rounds = 0;
+    for (auto& p : freqCounter) {
+        if (p.second == 1) return -1;
+        rounds += ceil(p.second / 3.);
     }
-    return {};
+    return rounds;
 }
