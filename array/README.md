@@ -30,20 +30,20 @@
 
    2. Bottom-up: Tabulation
 
-   3. Common patterns
+   3. Space optimization: [State reduction](src/dp_state_reduction.cpp)
+
+   4. Common patterns
 
       1. Iteration within recurrence relation
 
       2. State transitions
 
-      3. [State reduction](src/state_reduction.cpp)
+      3. Counting (i.e., number of ways to do X)
 
-      4. Counting (i.e., number of ways to do X)
+      4. Kadane algorithm
 
-      5. Kadane algorithm
+      5. Falling path sum
 
-      6. Falling path sum
+      6. [Prefix sum](src/prefix_sum.cpp)
 
-      7. [Prefix sum](src/prefix_sum.cpp)
-
-      8. With bitmask
+      7. With bitmask
