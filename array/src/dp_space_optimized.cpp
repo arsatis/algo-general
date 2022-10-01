@@ -1,7 +1,7 @@
 /**
  * As we iterate through the list, keep track of the last k << n states.
  * Similar to tabulation, but minimizes space complexity.
- * Requires: problems with the optimal substructure property.
+ * Requires: problems with the overlapping subproblems or optimal substructure property.
  */
 #include "../../utils/utils.h"
 

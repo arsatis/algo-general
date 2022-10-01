@@ -38,7 +38,7 @@
    
       1. Tabulation
 
-      2. [Iterative](src/dp_iterative.cpp)
+      2. With [space optimization](src/dp_space_optimized.cpp)
 
       3. With state machines
 
