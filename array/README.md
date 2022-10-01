@@ -27,3 +27,19 @@
    1. Divide-and-Conquer
 
    2. Backtracking
+
+6. Dynamic programming
+
+   1. Top-down
+
+      1. Memoization
+
+   2. Bottom-up
+   
+      1. Tabulation
+
+      2. [Iterative](src/dp_iterative.cpp)
+
+      3. With state machines
+
+      4. With bitmask
