@@ -8,8 +8,6 @@
 
    3. [Negative marking](src/negative_marking.cpp)
 
-   4. Kadane algorithm: maximum subarray
-
 2. Two pointers
 
    1. Binary search
@@ -30,16 +28,20 @@
 
 6. Dynamic programming
 
-   1. Top-down
+   1. Top-down: Memoization
 
-      1. Memoization
+   2. Bottom-up: Tabulation
 
-   2. Bottom-up
-   
-      1. Tabulation
+   3. Common patterns
 
-      2. With [space optimization](src/dp_space_optimized.cpp)
+      1. Iteration within recurrence relation
 
-      3. With state machines
+      2. State transitions
 
-      4. With bitmask
+      3. [State reduction](src/dp_state_reduction.cpp)
+
+      4. Counting (i.e., number of ways to do X)
+
+      5. Kadane algorithm: maximum subarray
+
+      6. With bitmask
