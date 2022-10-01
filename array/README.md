@@ -4,9 +4,7 @@
    
    1. With [frequency counter](src/frequency_counter.cpp)
 
-   2. [Prefix sum](src/prefix_sum.cpp)
-
-   3. [Negative marking](src/negative_marking.cpp)
+   2. [Negative marking](src/negative_marking.cpp)
 
 2. Two pointers
 
@@ -22,7 +20,7 @@
 
 5. Recursion
 
-   1. Divide-and-Conquer
+   1. Divide and conquer
 
    2. Backtracking
 
@@ -38,10 +36,14 @@
 
       2. State transitions
 
-      3. [State reduction](src/dp_state_reduction.cpp)
+      3. [State reduction](src/state_reduction.cpp)
 
       4. Counting (i.e., number of ways to do X)
 
-      5. Kadane algorithm: maximum subarray
+      5. Kadane algorithm
 
-      6. With bitmask
+      6. Falling path sum
+
+      7. [Prefix sum](src/prefix_sum.cpp)
+
+      8. With bitmask
