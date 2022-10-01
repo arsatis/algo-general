@@ -1,5 +1,5 @@
 /**
- * As you iterate through the array/vector/string, keep track of the sum up till each index.
+ * As we iterate through the array/vector/string, keep track of the sum up till each index.
  * 
  * Leetcode list: https://leetcode.com/tag/prefix-sum/
  */
