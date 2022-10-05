@@ -28,7 +28,7 @@
 
    1. Top-down: [Memoization](src/dp_memoization.cpp)
 
-   2. Bottom-up: Tabulation
+   2. Bottom-up: [Tabulation](src/dp_tabulation.cpp)
 
    3. Space optimization: [State reduction](src/dp_state_reduction.cpp)
 
