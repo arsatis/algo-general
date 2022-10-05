@@ -26,7 +26,7 @@
 
 6. Dynamic programming
 
-   1. Top-down: Memoization
+   1. Top-down: [Memoization](src/dp_memoization.cpp)
 
    2. Bottom-up: Tabulation
 
