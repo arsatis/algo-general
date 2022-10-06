@@ -18,6 +18,16 @@
 
 4. String search algorithms
 
+   1. [Rabin-Karp algorithm](src/rabin_karp.cpp)
+
+   2. Knuth-Morris-Pratt (KMP) algorithm
+
+   3. Aho-Corasick algorithm
+
+   4. Dragonfly algorithm (DA)
+
+   5. Suffix array
+
 5. Recursion
 
    1. Divide and conquer
