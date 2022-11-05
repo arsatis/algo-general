@@ -50,7 +50,7 @@
 
       3. Counting (i.e., number of ways to do X)
 
-      4. Kadane algorithm
+      4. [Kadane algorithm](src/kadane_algo.cpp)
 
       5. Falling path sum
 
