@@ -8,15 +8,13 @@
 
    2. Iteration within recurrence relation: word break
 
-   3. State transitions: best time to buy and sell stock series
+   3. Falling path sum: minimum falling path sum, triangle
 
-   4. Falling path sum: minimum falling path sum, triangle
+   4. Edit distance: longest common subsequence, edit distance
 
-   5. Edit distance: longest common subsequence, edit distance
+   5. With bitmask
 
-   6. With bitmask
-
-   7. Others: longest palindromic substring,
+   6. Others: longest palindromic substring,
               longest palindromic sequence,
               longest increasing subsequence,
               wiggle subsequence,

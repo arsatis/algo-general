@@ -46,7 +46,7 @@
 
       1. Iteration within recurrence relation
 
-      2. State transitions
+      2. [State transitions](src/state_transition.cpp)
 
       3. Counting (i.e., number of ways to do X)
 
