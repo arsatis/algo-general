@@ -4,17 +4,15 @@
 
 3. DP Common patterns
 
-   1. Counting: coin change series, combination sum iv, unique paths series
+   1. Iteration within recurrence relation: word break
 
-   2. Iteration within recurrence relation: word break
+   2. Falling path sum: minimum falling path sum, triangle
 
-   3. Falling path sum: minimum falling path sum, triangle
+   3. Edit distance: longest common subsequence, edit distance
 
-   4. Edit distance: longest common subsequence, edit distance
+   4. With bitmask
 
-   5. With bitmask
-
-   6. Others: longest palindromic substring,
+   5. Others: longest palindromic substring,
               longest palindromic sequence,
               longest increasing subsequence,
               wiggle subsequence,

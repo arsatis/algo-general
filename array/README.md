@@ -48,7 +48,7 @@
 
       2. [State transitions](src/state_transition.cpp)
 
-      3. Counting (i.e., number of ways to do X)
+      3. [Counting](src/counting.cpp)
 
       4. [Kadane algorithm](src/kadane_algo.cpp)
 
